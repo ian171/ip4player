@@ -6,6 +6,7 @@ main: net.chen.ip4player.Ip4player
 paper-plugin-loader: net.chen.ip4player.Ip4playerLoader
 api-version: '26.1.2'
 load: POSTWORLD
+softdepend: [PlaceholderAPI]
 folia-supported: true
 authors: [ Chen ]
 
