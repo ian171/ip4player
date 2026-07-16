@@ -1,0 +1,6 @@
+# Announce player region info to players with ip4player.see-joins permission
+announce-join: true
+announce-format: "&8[&bip4player&8] &f{player} &7加入自 &f{region}"
+
+# Log join info to console
+log-joins: true

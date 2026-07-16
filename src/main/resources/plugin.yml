@@ -1,0 +1,30 @@
+name: ip4player
+description: $description
+version: '${version}'
+
+main: net.chen.ip4player.Ip4player
+paper-plugin-loader: net.chen.ip4player.Ip4playerLoader
+api-version: '26.1.2'
+load: POSTWORLD
+folia-supported: true
+authors: [ Chen ]
+
+commands:
+  ip:
+    description: Show a player's IP and region
+    usage: /ip [player|reload]
+    permission: ip4player.ip.self
+
+permissions:
+  ip4player.ip.self:
+    description: View your own IP and region
+    default: true
+  ip4player.ip.others:
+    description: View other players' IPs and regions
+    default: op
+  ip4player.see-joins:
+    description: Receive join announcements with region info
+    default: op
+  ip4player.reload:
+    description: Reload the plugin config
+    default: op
